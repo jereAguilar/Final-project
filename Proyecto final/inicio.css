@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.nav{
+    background-color: lightcoral;
+}
+
+.menu{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.li{
+    list-style: none;
+    margin: 2em;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.bars{
+    position: absolute;
+    right: 1em;
+    top: 1.5em;
+    font-size:1.5em ;
+}
